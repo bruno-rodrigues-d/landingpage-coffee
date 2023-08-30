@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: 0;
+}
+
+:focus {
+  outline: 0;
+}
+
+body {
+  background: linear-gradient(46deg, #32160F 0%, #512C25 51.04%, #000 100%);
+  color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+
+  text-decoration: none;
+}
+
+body, input, textarea, button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  border: 0;
+}
