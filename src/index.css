@@ -15,7 +15,11 @@
 
 body {
   background: linear-gradient(46deg, #32160F 0%, #512C25 51.04%, #000 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #FFFFFF;
+  width: 100%;
+  height: 100vh;
   -webkit-font-smoothing: antialiased;
 
   text-decoration: none;
